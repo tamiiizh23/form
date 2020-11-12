@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h1>Subscription Form</h1>
+            <form method="POST" enctype="application/x-www-form-urlencoded">
+
+                <h2>Sign me up for...</h2>
+                <input type="radio" name="subscription" value="Monthly" required> Monthly Subscription $9.99<br>
+                <input type="radio" name="subscription" value="6 Months" required> 6 Months $5.99<br>
+                <input type="radio" name="subscription" value="Annual" required> Annual $69.00<br><br> 
+
+                <h3>i wish to pay by:</h3>
+                <input type="radio" name="pay" value="paypal" required> paypal<br><br> 
+                <input type="radio" name="pay" value="check" required> check /postal order(please make payable to newsletter)<br><br> 
+
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="FirstName"required ><br><br>
+
+
+                <label>Last Name</label>
+                <input type="text"  name="lastname" placeholder="LastName" required><br><br>
+
+                <label>EMail</label>
+                <input type="Email" name="mailid" placeholder="Emailid.." required><br><br>
+                 
+                <label>Phone</label>
+                <input type="text" name="phnum" value="PhoneNumber" required><br><br>
+                 
+                <label>Address</label>
+                <input type="text" name="address" value="Address" required><br><br>
+
+                <label>City</label>
+                <input type="text" name="city" value="City" required><br><br>
+
+                <label>State</label>
+                <input type="text" name="state" value="State" required><br><br>
+
+                <label>Pincode</label>
+                <input type="text" name="pincode" value="Pincode" required><br><br>
+
+            
+                <button type="submit">Submit Form</button>
+            </form>
+        </body>
+    </head>
+</html>
