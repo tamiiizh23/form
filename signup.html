@@ -5,7 +5,16 @@
         <body>
             <h1>SignUp & Register</h1>
             <form method="POST" enctype="application/x-www-form-urlencoded">
-                <a href="register.html">SignUp</a>
+                  <label>Email</label>
+               <input type="email" name="email" placeholder="Email address"required><br><br>
+               <label>Password</label>
+                <input type="password" name="pwd" placeholder="Password"required><br><br>
+               <label>Confirm Password</label> 
+                <input type="password" name="cnfrmpwd" placeholder="Confirm Password" required><br><br>
+                <p>Note:Password and Confirm password must be same</p>
+                <input type="checkbox" name="agreement"> I agree Terms & Conditions<br><br>
+                <input type="submit" value="Signup">
+                <input type="button" value="Cancel">
             </form>
         </body>
     
